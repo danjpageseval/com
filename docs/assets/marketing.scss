@@ -175,3 +175,116 @@ span.date {
     flex-direction: column;
   }
 }
+
+// Resource grid (languages, blogs)
+ul.resource-grid {
+    list-style: none;
+    padding: 0;
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+    gap: 1.25rem;
+}
+
+.resource-card {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 1rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-image {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.resource-image img {
+    max-height: 64px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.resource-initial {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #2a99e2;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.resource-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+}
+
+.resource-about {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.resource-stale .resource-image { opacity: 0.5; }
+
+.resource-note {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #777;
+    margin: 0.5rem 0 0;
+}
+
+// Fellows
+ul.fellow-index {
+    list-style: none;
+    padding: 0;
+    margin: 2em 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+    gap: 1rem;
+    text-align: center;
+}
+
+ul.fellow-index a {
+    display: block;
+    color: inherit;
+}
+
+ul.fellow-index img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 0.5rem;
+}
+
+section.fellow {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 1.5rem 0;
+    border-top: 1px solid #ddd;
+    scroll-margin-top: 1rem;
+}
+
+.fellow-avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.fellow-body h2 { margin-top: 0; }
+
+@media (max-width: 576px) {
+  section.fellow { flex-direction: column; }
+}

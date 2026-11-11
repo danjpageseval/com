@@ -100,7 +100,18 @@ defaults:
       layout: page_ico
       tag: bld
       wg: bld
-      
+  - scope:
+      path: "wg/fel"
+    values:
+      image:
+        path: /assets/images/eef/300-16x9-EEF-FEL.png
+        alt: Fellowship Logo
+      logo: /assets/images/eef/wg-logo/EEF-FEL.svg
+      logo_url: /wg/fel/
+      layout: page_ico
+      tag: fel
+      wg: fel
+
 collections:
   articles:
     output: false

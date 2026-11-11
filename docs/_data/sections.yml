@@ -21,6 +21,17 @@
     - title: Support
       link: /wg/sup/
       wg: SUP
+- name: Community
+  items:
+    - title: Fellows
+      link: /fellows/
+      wg: FEL
+    - title: Languages
+      link: /languages/
+      wg: COM
+    - title: Blogs
+      link: /blogs/
+      wg: COM
 - name: Events
   items:
     - title: "Malaga Unconference: 2026-03-19"

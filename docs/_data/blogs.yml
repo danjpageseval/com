@@ -1,0 +1,45 @@
+# Community blogs and newsletters, rendered by blogs/index.md.
+- name: Dashbit
+  link: https://dashbit.co/blog/
+  image: "/assets/images/blogs/dashbit.png"
+  about: Maintainers and contributors to many Elixir projects, such as Ecto, Broadway, LiveView, and Elixir itself.
+- name: OTP Team
+  link: https://blog.erlang.org/
+  image: "/assets/images/blogs/otp.png"
+  about: The Erlang/OTP team at Ericsson, the implementors and maintainers of Erlang/OTP.
+- name: Elixir Lang
+  link: https://elixir-lang.org/blog/
+  image: "/assets/images/blogs/elixir.png"
+  about: Official blog of the Elixir programming language.
+- name: Gleam News
+  link: https://gleam.run/news/
+  image: "/assets/images/languages/gleam.svg"
+  about: Latest official news on the Gleam programming language.
+- name: LFE blog
+  link: https://blog.lfe.io/
+  image: "/assets/images/blogs/lfe.png"
+  about: Official blog of the LFE programming language.
+- name: Planet Erlang
+  link: http://planeterlang.com/
+  image:
+  about: Planet Erlang is a meta blog that collects posts from the blogs of various Erlang developers and contributors.
+- name: Elixir Radar
+  link: https://elixir-radar.com/
+  image:
+  about: Elixir Radar is a weekly Elixir newsletter with curated content and a job board for Elixir developers.
+- name: Changelog
+  link: https://changelog.com/topic/elixir/
+  image: "/assets/images/blogs/changelog.png"
+  about: Changelog is an indie media company creating content for software developers, including a dedicated topic for Elixir.
+- name: ElixirStatus
+  link: https://elixirstatus.com/
+  image: "/assets/images/blogs/elixirstatus.png"
+  about: ElixirStatus is a community where Elixir creators post their newest blog posts, project updates, podcast episodes and videos.
+- name: ElixirWeekly
+  link: https://elixirweekly.net/
+  image: "/assets/images/blogs/elixirweekly.png"
+  about: ElixirWeekly is focusing on the very latest creations of the community in one weekly email.
+- name: Erlang Battleground
+  link: https://medium.com/erlang-battleground
+  image: "/assets/images/blogs/erlang-battleground.png"
+  about: Funny & Weird Stories found while coding on the BEAM.
