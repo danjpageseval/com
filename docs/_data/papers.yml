@@ -1,0 +1,202 @@
+# Academic papers about the BEAM ecosystem, rendered by papers/index.md.
+# Sorted by original publish date, newest first. paywall: true means the paper is not freely available.
+# Links checked 2026-11-11.
+- title: A Gradual Type System for Elixir
+  author: Mauricio Cassola, Agustín Talagorria, Alberto Pardo, Marcos Viera
+  url: https://doi.org/10.1145/3427081.3427084
+  date: '2020-10-01'
+  language: English
+  technologies:
+  - Elixir
+  paywall: true
+- title: Sensor fusion at the extreme edge of an internet of things network
+  author: Guillaume Neirinckx, Julien Bastin
+  url: https://webperso.info.ucl.ac.be/~pvr/Neirinckx_47311500_Bastin_81031400_2020.pdf
+  date: '2020-08-16'
+  language: English
+  technologies:
+  - Elixir
+  paywall: false
+- title: 'Elemental: An Open-Source Wireless Hardware and Software Platform for Building Energy and Indoor Environmental Monitoring and Control'
+  author: Akram Syed Ali, Christopher Coté, Mohammad Heidarinejad, Brent Stephens
+  url: https://www.mdpi.com/1424-8220/19/18/4017
+  date: '2019-09-18'
+  language: English
+  technologies:
+  - Elixir
+  - Nerves
+  paywall: false
+- title: 'SumMag: Design and Implementation of an Analyzer an Extension Mechanism by Meta-programming Using Elixir Macros'
+  author: Susumu Yamazaki, Yuki Hisae
+  url: https://cir.nii.ac.jp/crid/1050282813475756288
+  date: '2019-03-19'
+  language: Japanese
+  technologies:
+  - Elixir
+  paywall: false
+- title: A Method Using GPGPU for Super-Parallelization in Elixir Programming
+  author: Susumu Yamazaki, Masakazu Mori, Yoshihiro Ueno, Hideki Takase
+  url: https://zeam-vm.github.io/papers/GPU-SWoPP-2018.pdf
+  date: '2018-08-01'
+  language: Japanese
+  technologies:
+  - Elixir
+  paywall: false
+- title: Implementation of Runtime Environments of C++ and Elixir with the Node Programming Model
+  author: Unknown
+  url: https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=190626&item_no=1
+  date: '2018-07-23'
+  language: Japanese
+  technologies:
+  - Elixir
+  paywall: false
+- title: An Empirical Evaluation to Performance of Elixir for Introducing IoT Systems
+  author: Unknown
+  url: https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=190322&item_no=1
+  date: '2018-06-29'
+  language: Japanese
+  technologies:
+  - Elixir
+  paywall: false
+- title: Plan to Implementation of Lightweight Callback Thread for Elixir and Improvement of Maximum Concurrent Sessions and Latency of Phoenix
+  author: Susumu Yamazaki
+  url: https://zeam-vm.github.io/papers/callback-thread-2nd-WSA.html
+  date: '2018-05-12'
+  language: Japanese
+  technologies:
+  - Elixir
+  paywall: false
+- title: 'Hastega: Parallelization of Linear Regression Using SIMD Instruction for Elixir Programming'
+  author: Yuki Hisae, Susumu Yamazaki
+  url: https://cir.nii.ac.jp/crid/1050564288341440512
+  date: '2018-01-17'
+  language: Japanese
+  technologies:
+  - Elixir
+  paywall: false
+- title: 'Sparrow: a DSL for coordinating large groups of heterogeneous actors'
+  author: Humberto Rodriguez Avila, Joeri De Koster, Wolfgang De Meuter
+  url: https://doi.org/10.1145/3141834.3141838
+  date: '2017-09-01'
+  language: English
+  technologies:
+  - Elixir
+  paywall: false
+- title: 'Scaling Reliably: Improving the Scalability of the Erlang Distributed Actor Platform'
+  author: Phil Trinder, Natalia Chechina, Nikolaos Papaspyrou, Konstantinos Sagonas, Simon Thompson, et al.
+  url: https://www.dcs.gla.ac.uk/research/sd-erlang/release-summary-arxiv.pdf
+  date: '2017-04-25'
+  language: English
+  technologies:
+  - BEAM
+  - Erlang
+  paywall: false
+- title: A Runtime Monitoring Tool for Actor-Based Systems
+  author: Duncan Paul Attard, Ian Cassar, Adrian Francalanza, Luca Aceto, Anna Ingolfsdottir
+  url: https://staff.um.edu.mt/afra1/papers/betty-book.pdf
+  date: '2017-01-01'
+  language: English
+  technologies:
+  - Erlang
+  paywall: false
+- title: Elixir programming language evaluation for IoT
+  author: Geovane Fedrecheski, Laisa C. P. Costa, Marcelo K. Zuffo
+  url: https://ieeexplore.ieee.org/document/7797392
+  date: '2016-09-28'
+  language: English
+  technologies:
+  - Elixir
+  paywall: true
+- title: A Monitoring Tool for a Branching-Time Logic
+  author: Duncan Paul Attard, Adrian Francalanza
+  url: https://staff.um.edu.mt/afra1/papers/rv2016.pdf
+  date: '2016-05-01'
+  language: English
+  technologies:
+  - Erlang
+  paywall: false
+- title: Improving the Network Scalability of Erlang
+  author: Natalia Chechina, Huiqing Li, Amir Ghaffari, Simon Thompson, Phil Trindera
+  url: https://www.dcs.gla.ac.uk/research/sd-erlang/sd-erlang-improving-jpdc-16.pdf
+  date: '2015-08-26'
+  language: English
+  technologies:
+  - Erlang
+  paywall: false
+- title: Comparison of Erlang Runtime System and Java Virtual Machine
+  author: Tõnis Pool
+  url: https://web.archive.org/web/20191018104511/http://ds.cs.ut.ee/courses/course-files/To303nis%20Pool%20.pdf
+  date: '2015-05-01'
+  language: English
+  technologies:
+  - BEAM
+  paywall: false
+- title: Synthesising correct concurrent runtime monitors
+  author: Adrian Francalanza, Aldrin Seychell
+  url: https://staff.um.edu.mt/afra1/papers/rv13jour.pdf
+  date: '2014-11-20'
+  language: English
+  technologies:
+  - Erlang
+  paywall: false
+- title: Multiplayer Game Server for Turn-Based Mobile Games in Erlang
+  author: Anders Andersson
+  url: https://www.semanticscholar.org/paper/62c581a08fcb58cb89586486a949376d984a3303
+  date: '2013-02-01'
+  language: English
+  technologies:
+  - BEAM
+  - Erlang
+  paywall: false
+- title: TinyMT pseudo random number generator for Erlang
+  author: Kenji Rikitake
+  url: https://doi.org/10.1145/2364489.2364504
+  date: '2012-09-14'
+  language: English
+  technologies:
+  - Erlang
+  - PRNG
+  paywall: false
+- title: SFMT pseudo random number generator for Erlang
+  author: Kenji Rikitake
+  url: https://doi.org/10.1145/2034654.2034669
+  date: '2011-09-23'
+  language: English
+  technologies:
+  - Erlang
+  - PRNG
+  paywall: false
+- title: Characterizing the Scalability of Erlang VM on Many-core Processors
+  author: Jianrong Zhang
+  url: https://kth.diva-portal.org/smash/get/diva2:392243/FULLTEXT01.pdf
+  date: '2011-01-01'
+  language: English
+  technologies:
+  - BEAM
+  - Erlang
+  paywall: false
+- title: A Generic Game Server
+  author: Jonatan Pålsson, Richard Pannek, Niklas Landin, Mattias Petterson
+  url: https://jeena.net/t/GGS.pdf
+  date: '2011-01-01'
+  language: English
+  technologies:
+  - BEAM
+  - Erlang
+  paywall: false
+- title: Comparing C++ and ERLANG for motorola telecoms software
+  author: Phil Trinder, J.H. Nystrom, D.J. King
+  url: https://doi.org/10.1145/1159789.1159800
+  date: '2006-01-01'
+  language: English
+  technologies:
+  - Erlang
+  paywall: false
+- title: Making reliable distributed systems in the presence of software errors
+  author: Joe Armstrong
+  url: https://erlang.org/download/armstrong_thesis_2003.pdf
+  date: '2003-12-01'
+  language: English
+  technologies:
+  - Erlang
+  paywall: false

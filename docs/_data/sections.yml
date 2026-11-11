@@ -32,6 +32,9 @@
     - title: Blogs
       link: /blogs/
       wg: COM
+    - title: Academic Papers
+      link: /papers/
+      wg: EDU
 - name: Events
   items:
     - title: "Malaga Unconference: 2026-03-19"

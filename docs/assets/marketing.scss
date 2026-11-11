@@ -288,3 +288,76 @@ section.fellow {
 @media (max-width: 576px) {
   section.fellow { flex-direction: column; }
 }
+
+// Academic papers
+.paper-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
+}
+
+.paper-filter button {
+    border: 0;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.35rem 0.9rem;
+    opacity: 0.55;
+}
+
+.paper-filter button[aria-pressed="true"] { opacity: 1; }
+
+.paper-tag {
+    display: inline-block;
+    border-radius: 999px;
+    padding: 0.1rem 0.6rem;
+    margin-right: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #fff;
+    background: #6c757d;
+}
+
+.paper-tag-all { background: #1f2c34; }
+.paper-tag-beam { background: #2a99e2; }
+.paper-tag-erlang { background: #a90533; }
+.paper-tag-elixir { background: #4e2a8e; }
+
+ul.paper-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.paper {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;
+}
+
+li.paper[hidden] { display: none; }
+
+.paper-year {
+    flex: 0 0 3.5rem;
+    font-weight: 700;
+    color: #777;
+}
+
+.paper-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem;
+}
+
+.paper-meta {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0 0 0.4rem;
+}
+
+.paper-tags { margin: 0; }
+
+@media (max-width: 576px) {
+  li.paper { flex-direction: column; gap: 0.25rem; }
+}
