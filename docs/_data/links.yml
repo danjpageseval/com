@@ -1,0 +1,24 @@
+# Targets for legacy erlef.org paths and for links inside migrated posts.
+# Change a target here; posts use {{ site.data.links.<key> }} and the stub
+# pages in /legacy redirect to the same values.
+sponsors: https://sponsor.erlef.org/
+board_members: https://erlef.org/board_members
+wg_infra: https://erlef.org/wg/infra
+member_profile: /members/profile/
+community: /languages/
+academic_papers: /papers/
+
+# Old blog index pages: /news, /blog/<category>, /news/<category>
+news: /more-news/
+blog_eef: /wg/com/
+blog_education: /wg/edu/
+blog_embedded: /wg/emb/
+blog_fellowship: /wg/fel/
+blog_machine_learning: /wg/ml/
+blog_marketing: /wg/com/
+blog_newsletter: /wg/com/
+blog_security: /wg/sec/
+blog_sponsorship: /wg/sup/
+
+# Old tag pages /blog/tags/<tag> go to /topics/#<tag>
+topics: /topics/

@@ -24,6 +24,11 @@ description: Communication for the EEF community
 
 <div style="margin-left: 6em"><a href="/more-news/">More articles...</a></div>
 
+<div class="home-topics">
+{% include topic-cloud.html base="/topics/" recent=10 %}
+<a href="/topics/">More Topics...</a>
+</div>
+
 {% for section in site.data.sections %}
 
 <a id="{{section.name | slugify}}"/>

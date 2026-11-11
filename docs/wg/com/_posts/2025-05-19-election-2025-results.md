@@ -1,0 +1,31 @@
+---
+title: The EEF board 2025 Election Vote is Over
+date: '2025-05-19 15:57:45 +0000'
+author: Bryan Paxton
+description: EEF 2025 Board Election Results
+topics:
+- eef
+- board
+- elections
+old_category: eef
+layout: page_ico
+redirect_from:
+- "/blog/eef/election-2025-results"
+- "/news/eef/election-2025-results"
+---
+## 2025 Board Election Results
+
+Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `C`](https://erlef.org/blog/eef/election-2025). We're thankful for everyone who [decided to get involved by running](https://erlef.org/blog/eef/election-2025-candidates#who-are-the-current-candidates), and those who made their voices heard by voting.
+
+Quorum was reached in the election and cohort `C` contains the following three members :
+
+- Lars Wikman
+- Lee Barney
+- Zach Daniel
+
+The board wishes to thank Powell Kinney, Peter Ullrich, and Jim Freeze for participating in the election this year and and looks forward to them running in 2026.
+
+The change will be officiated during the next board meeting, where we'll transfer the powers between the old board
+members to the new ones through a final procedural vote. Thanks again to everyone who participated in this election!
+
+Next year's election will be based on cohort `A`, which includes Sebastian Strollo, Amos King, Alistair Woodman, and Franceso Cesarini and will represent yet another opportunity to get involved in the BEAM ecosystem.

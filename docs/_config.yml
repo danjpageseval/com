@@ -18,6 +18,7 @@ plugins:
   - jekyll-feed
   - jekyll-spaceship
   - jekyll-link-attributes
+  - jekyll-redirect-from
 defaults:
   - scope:
       path: "wg/cna"
@@ -111,6 +112,17 @@ defaults:
       layout: page_ico
       tag: fel
       wg: fel
+  - scope:
+      path: "wg/ml"
+    values:
+      image:
+        path: /assets/images/eef/300-16x9-EEF-ML.png
+        alt: Machine Learning Logo
+      logo: /assets/images/eef/wg-logo/EEF-ML.svg
+      logo_url: /wg/ml/
+      layout: page_ico
+      tag: ml
+      wg: ml
 
 collections:
   articles:

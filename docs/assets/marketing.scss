@@ -361,3 +361,46 @@ li.paper[hidden] { display: none; }
 @media (max-width: 576px) {
   li.paper { flex-direction: column; gap: 0.25rem; }
 }
+
+// Topics
+ul.topic-cloud {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+ul.topic-cloud a {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    padding: 0.2rem 0.75rem;
+    font-size: 0.9rem;
+}
+
+ul.topic-cloud a span {
+    color: #777;
+    font-size: 0.8rem;
+    margin-left: 0.2rem;
+}
+
+section.topic {
+    scroll-margin-top: 1rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
+
+section.topic h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.home-topics {
+    margin: 1.5rem 0 0 6em;
+}
+
+.home-topics ul.topic-cloud {
+    margin: 0 0 0.75rem;
+}

@@ -1,4 +1,12 @@
 ---
+topics:
+  - security
+  - atom-exhaustion
+  - vulnerability
+  - dos
+redirect_from:
+  - /blog/security/atom-exhaustion
+  - /news/security/atom-exhaustion
 title: "Atom Exhaustion: A Known Issue That Keeps Becoming a CVE"
 author: Jonatan Männchen
 ---

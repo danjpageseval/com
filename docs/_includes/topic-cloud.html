@@ -1,0 +1,24 @@
+{%- comment -%}
+  Topic pills. Params:
+    base   - URL prefix for the #anchor links (e.g. "/topics/")
+    recent - if set, show only this many topics, taken from the newest posts first
+{%- endcomment -%}
+{%- if include.recent -%}
+  {%- assign topics = "" | split: "" -%}
+  {%- for post in site.posts -%}
+    {%- if post.topics -%}{%- assign topics = topics | concat: post.topics | uniq -%}{%- endif -%}
+    {%- if topics.size >= include.recent -%}{%- break -%}{%- endif -%}
+  {%- endfor -%}
+  {%- assign topics = topics | slice: 0, include.recent -%}
+{%- else -%}
+  {%- assign topics = site.posts | map: "topics" | compact | join: "," | split: "," | uniq | sort_natural -%}
+{%- endif -%}
+<ul class="topic-cloud">
+{%- for topic in topics -%}
+  {%- assign tagged = site.posts | where_exp: "p", "p.topics contains topic" -%}
+  <li><a href="{{ include.base }}#{{ topic | slugify }}">{{ topic }} <span>{{ tagged.size }}</span></a></li>
+{%- endfor -%}
+{%- if include.more -%}
+  <li><a href="{{ include.base }}">All topics…</a></li>
+{%- endif -%}
+</ul>

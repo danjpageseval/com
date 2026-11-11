@@ -1,0 +1,22 @@
+{%- comment -%}
+  Redirect stub for a legacy erlef.org path. The target comes from
+  _data/links.yml via the page's `link` key, so it can change in one place.
+  (Not named "redirect": jekyll-redirect-from uses that layout name.)
+{%- endcomment -%}
+{%- assign target = site.data.links[page.link] -%}
+{%- if page.anchor %}{% assign target = target | append: "#" | append: page.anchor %}{% endif -%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <link rel="canonical" href="{{ target }}">
+  <meta http-equiv="refresh" content="0; url={{ target }}">
+  <meta name="robots" content="noindex">
+  <script>location.replace({{ target | jsonify }});</script>
+</head>
+<body>
+  <h1>Redirecting…</h1>
+  <p>This page has moved to <a href="{{ target }}">{{ target }}</a>.</p>
+</body>
+</html>

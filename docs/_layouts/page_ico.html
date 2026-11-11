@@ -28,7 +28,12 @@ layout: default
     {% if page.date %}
     <div class="container mb-3">
       {% if page.author %}
-      by {{ page.author }}
+      {%- if page.additional_authors -%}
+        {%- assign authors = page.additional_authors | unshift: page.author -%}
+        by {{ authors | array_to_sentence_string }}
+      {%- else -%}
+        by {{ page.author }}
+      {%- endif -%}
       {% else %}
       Published 
       {% endif %}
