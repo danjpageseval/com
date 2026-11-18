@@ -18,7 +18,7 @@ redirect_from:
 All results listed below are merely provided as historical record and have been invalidated by the 2023 election
 officials as of April 3rd, 2023.
 
-Please visit [Election 2023 Re-Vote](https://erlef.org/blog/eef/election-2023-revote) for current information about the 2023
+Please visit [Election 2023 Re-Vote]({% post_url wg/com/2023-04-03-election-2023-revote %}) for current information about the 2023
 board election.
 
 This page shall be updated with a link to the 2023 election re-vote results are out.
@@ -27,7 +27,7 @@ See the admendments section of this page for previous updates.
 
 ## About the original results
 
-Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `A`](https://erlef.org/blog/eef/election-2023). We're thankful for everyone who [decided to get involved by running](https://erlef.org/blog/eef/election-2023#who-are-the-current-candidates), and those who made their voices heard by voting.
+Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `A`]({% post_url wg/com/2023-02-25-election-2023 %}). We're thankful for everyone who [decided to get involved by running]({% post_url wg/com/2023-02-25-election-2023 %}#who-are-the-current-candidates), and those who made their voices heard by voting.
 
 Cohort `A` contains four members, who now are:
 

@@ -1,0 +1,23 @@
+---
+- name: Lee S Barney
+  image: "/assets/images/people/lee-s-barney.jpeg"
+- name: Francesco Cesarini
+  image: "/assets/images/people/francesco-cesarini.jpg"
+- name: Zach Daniel
+  image: "/assets/images/people/zachary-daniel.jpg"
+- name: Kiko Fernandez-Reyes
+  image: "/assets/images/people/kiko-fernandez-reyes.png"
+- name: Amos King
+  image: "/assets/images/people/amos-king.jpg"
+- name: Bryan Paxton
+  image: "/assets/images/people/bryan-paxton.jpg"
+- name: Miriam Pena
+  image: "/assets/images/people/miriam-pena.jpg"
+- name: Peer Stritzinger
+  image: "/assets/images/people/peer-stritzinger.jpg"
+- name: Sebastian Strollo
+  image: "/assets/images/people/sebastian-strollo.jpg"
+- name: Lars Wikman
+  image: "/assets/images/people/lars-wikman.jpeg"
+- name: Alistair Woodman
+  image: "/assets/images/people/alistair-woodman.png"

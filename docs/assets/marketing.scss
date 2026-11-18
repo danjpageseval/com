@@ -404,3 +404,56 @@ section.topic h2 {
 .home-topics ul.topic-cloud {
     margin: 0 0 0.75rem;
 }
+
+.people-initial {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0.5rem;
+    font-size: 2rem;
+    color: #777;
+}
+
+.wg-people {
+    margin-top: 2rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
+
+ul.wg-contact {
+    list-style: none;
+    padding: 0;
+}
+
+ul.wg-index {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+ul.wg-index li {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 0.75rem 0;
+    border-top: 1px solid #ddd;
+}
+
+ul.wg-index img {
+    margin-top: 0.4rem;
+    flex-shrink: 0;
+    width: 60px;
+}
+
+ul.wg-index h3 {
+    font-size: 1.15rem;
+    margin: 0 0 0.25rem;
+}
+
+ul.wg-index p {
+    margin: 0;
+}

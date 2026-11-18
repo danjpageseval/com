@@ -14,7 +14,7 @@ redirect_from:
 ---
 ## EEF 2024 Vote Election results
 
-Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `B`](https://erlef.org/blog/eef/election-2024). We're thankful for everyone who [decided to get involved by running](https://erlef.org/blog/eef/election-2024#who-are-the-current-candidates), and those who made their voices heard by voting.
+Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `B`]({% post_url wg/com/2024-03-28-election-2024 %}). We're thankful for everyone who [decided to get involved by running]({% post_url wg/com/2024-03-28-election-2024 %}#who-are-the-current-candidates), and those who made their voices heard by voting.
 
 Cohort `B` contains four members, who now are:
 

@@ -4,7 +4,7 @@ description: Build tooling, releases, package management, interoperability
 ---
 
 * [Slack channel](https://the-eef.slack.com/archives/CUQVCA5K8)
-* [Charter](https://erlef.org/wg/build-and-packaging)
+* [Charter]({{ site.data.links.wg_build_and_packaging }})
 
 <a id="articles"/>
 <div class="b-card">

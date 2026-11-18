@@ -84,4 +84,4 @@ Livebook has been moved to its own organization and it will launch their own web
 
 * Robert Bates has shared a presentation about [AI packages for Elixir currently available on Hex.pm](https://docs.google.com/presentation/d/1_GiJ32hv3mv1qBHlZHkLH-GiSlrNTvObBnAPRoagm00/edit#slide=id.gc6f73a04f_0_46)
 
-Are you also interested in Machine Learning and the Erlang Ecosystem? [Join us and come chat on our Slack](https://erlef.org/wg/machine-learning).
+Are you also interested in Machine Learning and the Erlang Ecosystem? [Join us and come chat on our Slack]({{ site.data.links.wg_machine_learning }}).

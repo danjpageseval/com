@@ -1,0 +1,28 @@
+---
+name: Machine Learning
+title: Machine Learning Working Group
+description: To develop the ecosystem on all aspects in the context of Machine Learning, from native compilation to high-level abstractions and auxiliary projects.
+old_path: "/wg/machine-learning"
+github:
+  url: https://github.com/erlef/machine-learning-wg
+  label: erlef/machine-learning-wg
+slack: "#machine-learning"
+calendar: webcal://user.fm/calendar/v1-3a2b2faeb5187776e504bb069ab528ac/Public.ics
+chairs:
+- José Valim
+- Sean Moriarity
+members:
+- name: José Valim
+  image: "/assets/images/people/jose-valim.jpg"
+- name: Jeff Smith
+  image: "/assets/images/people/jeff-smith.jpeg"
+- name: Peer Stritzinger
+  image: "/assets/images/people/peer-stritzinger.jpg"
+- name: Sean Moriarity
+  image: "/assets/images/people/sean-moriarity.jpeg"
+- name: Jonatan Kłosko
+  image: "/assets/images/people/jonatan-k-osko.jpeg"
+- name: Jason Goldberger
+  image: "/assets/images/people/jason-goldberger.jpeg"
+- name: Stas Versilov
+  image: "/assets/images/people/stas-versilov.jpeg"

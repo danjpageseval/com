@@ -22,7 +22,7 @@ The beginning of Autumn has arrived and with it comes our September Newsletter! 
 
 ## Stipends!
 ------------------------------------------------------------
-It is our great pleasure to announce that we have just opened our stipend program. The goal of it is to fund open source development, trainings, workshops and other initiatives that will help increase and expand the Beam community. These stipends are funded by [our sponsor](https://erlef.org/sponsors/) , [membership fees](https://members.erlef.org/join-us) and donations.
+It is our great pleasure to announce that we have just opened our stipend program. The goal of it is to fund open source development, trainings, workshops and other initiatives that will help increase and expand the Beam community. These stipends are funded by [our sponsor]({{ site.data.links.sponsors }}) , [membership fees](https://members.erlef.org/join-us) and donations.
 
 The current focus of the foundation is on increasing and expanding the community so we will favour stipends that are targeted to beneficiaries that are new to Erlang/Elixir and the ecosystem. We prefer stipends that support online workshops, online training materials, hands-on trainings, development work (open source) and diversity efforts.
 
@@ -34,7 +34,7 @@ If you want to apply for a stipend, fill out the [form here](https://erlef.org/s
 ------------------------------------------------------------
 Thanks to the Marketing Working Group - and Bryan Paxton in particular - [ErlEF.org](https://erlef.org/) now runs on the Erlang VM! The code is on [GitHub](https://github.com/erlef/website) so check it out.
 
-We're always looking for designers to help us tweak the site. Reach out to the [marketing group](https://erlef.org/wg/marketing) if you're interested.
+We're always looking for designers to help us tweak the site. Reach out to the [marketing group]({{ site.data.links.wg_marketing }}) if you're interested.
 
 
 ## Working Group Water Cooler
@@ -79,7 +79,7 @@ Show your support for the community, the BEAM languages, and the foundation itse
 
 ## Ecosystem News
 ------------------------------------------------------------
-* [Honoring Our Fellows](https://erlef.org/news/fellowship/honoring-our-fellows)
+* [Honoring Our Fellows]({% post_url wg/fel/2019-08-21-honoring-our-fellows %})
 * [Lumen Announced](https://www.youtube.com/watch?v=uMgTIlgYB-U)
 * [Rebar 3 3.12.0 Released](https://github.com/erlang/rebar3/releases/latest)
 * [ElixirConf EEF Updates](https://www.youtube.com/watch?v=NyBplIoH6z8) by Miriam Pena & Desmond Bowe

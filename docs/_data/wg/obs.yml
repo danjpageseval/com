@@ -1,0 +1,33 @@
+---
+name: Observability
+title: Observability Working Group
+description: To evolve the tools in the ecosystem related to observability, such as metrics, distributed tracing and logging, with a strong focus on interoperability between BEAM languages.
+old_path: "/wg/observability"
+github:
+  url: https://github.com/erlef/eef-observability-wg
+  label: erlef/eef-observability-wg
+slack: "#observability"
+calendar: webcal://user.fm/calendar/v1-15f53c735a4eefcde3bef403ff4ec8f2/Observability%20Public.ics
+chairs:
+- Tristan Sloughter
+members:
+- name: Zach Daniel
+  image: "/assets/images/people/zachary-daniel.jpg"
+- name: Bryan Naegele
+  image: "/assets/images/people/bryan-naegele.png"
+- name: Mark Allen
+  image: "/assets/images/people/mark-allen.jpg"
+- name: Vince Foley
+  image: "/assets/images/people/vince-foley.png"
+- name: Arkadiusz Gil
+  image: "/assets/images/people/arkadiusz-gil.jpg"
+- name: Greg Mefford
+  image: "/assets/images/people/greg-mefford.jpg"
+- name: Ilya Khaprov
+  image: "/assets/images/people/ilya-khaprov.jpg"
+- name: Łukasz Niemier
+  image: "/assets/images/people/lukasz-niemier.jpg"
+- name: Andrew Thompson
+  image: "/assets/images/people/andrew-thompson.jpg"
+- name: Tristan Sloughter
+  image: "/assets/images/people/tristan-sloughter.jpg"

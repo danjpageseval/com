@@ -52,7 +52,7 @@ Usually when I co-supervise students it's a project either for their final year,
 
 The workshop follows a typical academic format – participants are encouraged to write and present papers. For those new to writing research papers, Erlang Workshop offers lots of support. The support can be on any level: an academic and developer can write papers together, an academic just guides the writing of the paper or a proofreading/preliminary review.
 
-#### You are currently one of the Chairs of the [Embedded Working Group](https://erlef.org/wg/embedded) of the Foundation, how can you describe their task?
+#### You are currently one of the Chairs of the [Embedded Working Group]({{ site.data.links.wg_embedded }}) of the Foundation, how can you describe their task?
 
 Essentially we promote Erlang into embedded systems and IoT devices, we support writing proposals (not always related to embedded systems but to the BEAM community in general) and share news related to the group in general. We encourage talks for non-BEAM conferences, like robotics, because we think that exposing Erlang to other communities is very important. Attending talks related to Embedded systems and talking about Erlang makes those communities know about us. 
 

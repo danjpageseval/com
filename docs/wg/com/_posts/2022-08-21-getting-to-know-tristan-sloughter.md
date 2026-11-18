@@ -76,7 +76,7 @@ I think the future of Elixir is certainly in the web but surprisingly, to me at 
 
 I was really happy that the foundation was created because I wanted it to be a vehicle for bringing Erlang and Elixir devs together. There has been a lot of fragmentation and duplicate work.
 
-Working in the [Build and Packaging Working Group](https://erlef.org/wg/build-and-packaging) to bring together those working on mix, rebar3, hex, erlc and gleam has been very beneficial. In the [Observability Working Group](https://erlef.org/wg/observability) we converted the [telemetry](https://github.com/beam-telemetry/telemetry) library to Erlang so it could be shared between ecosystems and it is where we do some of the coordinating on instrumenting Elixir libraries for tracing with OpenTelemetry.
+Working in the [Build and Packaging Working Group]({{ site.data.links.wg_build_and_packaging }}) to bring together those working on mix, rebar3, hex, erlc and gleam has been very beneficial. In the [Observability Working Group]({{ site.data.links.wg_observability }}) we converted the [telemetry](https://github.com/beam-telemetry/telemetry) library to Erlang so it could be shared between ecosystems and it is where we do some of the coordinating on instrumenting Elixir libraries for tracing with OpenTelemetry.
 
 *We're eager to hear your stories, please share them
 at <marcom@erlef.org>!*

@@ -53,7 +53,7 @@ Follow along with the GitHub repo and minutes from our meetings. And drop it on 
 ## New Working Group: Education, Training & Adoption
 ------------------------------------------------------------
 
-The mission statement of the new working group is to “facilitate, evolve education and training and consolidate educational material(s) for all BEAM languages and the BEAM itself.” Check out the Education, Training, and Adoption working group’s full page ![here](https://erlef.org/education-training-adoption/) .
+The mission statement of the new working group is to “facilitate, evolve education and training and consolidate educational material(s) for all BEAM languages and the BEAM itself.” Check out the Education, Training, and Adoption working group’s full page ![here]({{ site.data.links.wg_education }}) .
 
 
 ## Sponsor Testimonial
@@ -67,7 +67,7 @@ Founder and Technical Director
 
 ## Last Chance to Become a Founding Sponsor
 ------------------------------------------------------------
-It’s the last chance to become a founding sponsor for the EEF. Show your support for the community, the BEAM languages, and the foundation itself by becoming a founding sponsor. Join the other great founding sponsors [here](https://erlef.org/sponsors/) .
+It’s the last chance to become a founding sponsor for the EEF. Show your support for the community, the BEAM languages, and the foundation itself by becoming a founding sponsor. Join the other great founding sponsors [here]({{ site.data.links.sponsors }}) .
 
 
 ## Ecosystem News

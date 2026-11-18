@@ -35,7 +35,7 @@ The new dates are :
 - Friday Apr 14th at 11:45 PM JST to Saturday Apr 22nd at 11:45 PM JST
 - Saturday Apr 15th at 12:45 AM AEST to Sunday Apr 23rd at 12:45 AM AEST
 
-The new dates have been chosen based on Section 3.4. Notice in our [bylaws](https://erlef.org/bylaws/) (There must be at least 10 days notice ahead of a special meeting). The times (now communicated in many time zones) have been chosen to be clear and will be used in all communications ahead of the poll. We have chosen deadlines that are easier to enforce without deviating from announced times.
+The new dates have been chosen based on Section 3.4. Notice in our [bylaws]({{ site.data.links.bylaws }}) (There must be at least 10 days notice ahead of a special meeting). The times (now communicated in many time zones) have been chosen to be clear and will be used in all communications ahead of the poll. We have chosen deadlines that are easier to enforce without deviating from announced times.
 
 We are also going to do a more in-depth review of our process and approach to
 run elections, such that we lower the probabilities of running into more
@@ -46,8 +46,8 @@ We look forward to seeing you in the polls and we welcome questions and comments
 
 The following pages will kept up for historical record :
 
-- [The EEF Board is Having its 2023 Election](https://erlef.org/blog/eef/election-2023)
-- [The EEF Board 2023 Election is Over](https://erlef.org/blog/eef/election-2023-results)
+- [The EEF Board is Having its 2023 Election]({% post_url wg/com/2023-02-25-election-2023 %})
+- [The EEF Board 2023 Election is Over]({% post_url wg/com/2023-03-25-election-2023-results %})
 
 ## About the election
 

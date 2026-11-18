@@ -15,7 +15,7 @@ redirect_from:
 ---
 ## 2025 Board Election Results
 
-Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `C`](https://erlef.org/blog/eef/election-2025). We're thankful for everyone who [decided to get involved by running](https://erlef.org/blog/eef/election-2025-candidates#who-are-the-current-candidates), and those who made their voices heard by voting.
+Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `C`]({% post_url wg/com/2025-04-10-election-2025 %}). We're thankful for everyone who [decided to get involved by running]({% post_url wg/com/2025-05-09-election-2025-candidates %}#who-are-the-current-candidates), and those who made their voices heard by voting.
 
 Quorum was reached in the election and cohort `C` contains the following three members :
 

@@ -14,9 +14,9 @@ redirect_from:
 ---
 ---
 
-Over the last month, the Erlang Ecosystem Foundation has been running elections [with more candidates in play than we could have hoped for](https://erlef.org/news/eef/election-2021). We see this larger involvement as a statement that the community believes the foundation can make a difference within the community.
+Over the last month, the Erlang Ecosystem Foundation has been running elections [with more candidates in play than we could have hoped for]({% post_url wg/com/2021-02-25-election-2021 %}). We see this larger involvement as a statement that the community believes the foundation can make a difference within the community.
 
-We want to thank [everyone who decided to run](https://erlef.org/news/eef/election-2021#who-are-the-current-candidates), and the members who took the time to vote, roughly 40% more than last year.
+We want to thank [everyone who decided to run]({% post_url wg/com/2021-02-25-election-2021 %}#who-are-the-current-candidates), and the members who took the time to vote, roughly 40% more than last year.
 
 Here is the list of the 4 winners for Cohort B, which will be electable again in 2024:
 

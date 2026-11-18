@@ -124,6 +124,71 @@ defaults:
       tag: ml
       wg: ml
 
+  - scope:
+      path: "wg/obs"
+    values:
+      image:
+        path: /assets/images/eef/300-16x9-EEF-OBS.png
+        alt: Observability Logo
+      logo: /assets/images/eef/wg-logo/EEF-OBS.svg
+      logo_url: /wg/obs/
+      layout: page_ico
+      tag: obs
+      wg: obs
+  - scope:
+      path: "wg/inf"
+    values:
+      image:
+        path: /assets/images/eef/300-16x9-EEF-INF.png
+        alt: Infrastructure Logo
+      logo: /assets/images/eef/wg-logo/EEF-INF.svg
+      logo_url: /wg/inf/
+      layout: page_ico
+      tag: inf
+      wg: inf
+  - scope:
+      path: "wg/lib"
+    values:
+      image:
+        path: /assets/images/eef/300-16x9-EEF-LIB.png
+        alt: Libraries and Frameworks Logo
+      logo: /assets/images/eef/wg-logo/EEF-LIB.svg
+      logo_url: /wg/lib/
+      layout: page_ico
+      tag: lib
+      wg: lib
+  - scope:
+      path: "wg/epi"
+    values:
+      image:
+        path: /assets/images/eef/300-16x9-EEF-EPI.png
+        alt: External Process Communication Logo
+      logo: /assets/images/eef/wg-logo/EEF-EPI.svg
+      logo_url: /wg/epi/
+      layout: page_ico
+      tag: epi
+      wg: epi
+  - scope:
+      path: "wg/lni"
+    values:
+      image:
+        path: /assets/images/eef/300-16x9-EEF-LNI.png
+        alt: Language Interoperability Logo
+      logo: /assets/images/eef/wg-logo/EEF-LNI.svg
+      logo_url: /wg/lni/
+      layout: page_ico
+      tag: lni
+      wg: lni
+  - scope:
+      path: "org"
+    values:
+      image:
+        path: /assets/images/eef/300-16x9-EEF-ORG.png
+        alt: EEF Logo
+      logo: /assets/images/eef-logo.svg
+      logo_url: /org/
+      layout: page_ico
+
 collections:
   articles:
     output: false

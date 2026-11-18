@@ -1,0 +1,18 @@
+---
+name: Language Interoperability
+title: Language Interoperability Working Group
+description: Facilitate the reuse of software components that target the Erlang Runtime.
+old_path: "/wg/language-interop"
+email: language-interop@erlef.org
+slack: "#language-interop"
+chairs:
+- Mariano Guerra
+members:
+- name: José Valim
+  image: "/assets/images/people/jose-valim.jpg"
+- name: Mariano Guerra
+  image: "/assets/images/people/mariano-guerra.jpg"
+- name: Robert Virding
+  image: "/assets/images/people/robert-virding.png"
+- name: Kenneth Lundin
+  image: "/assets/images/people/kenneth-lundin.jpg"

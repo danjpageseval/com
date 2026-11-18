@@ -123,7 +123,7 @@ Maximize time federation and out-bound linkages.
 
 ## Calendars
 * [EEF Working Groups](webcal://erlef.org/calendars/all.ics)
-* [EEF Events](https://erlef.org/events)
+* [EEF Events]({{ site.data.links.events }})
 * [Elixir Events](https://elixirevents.org){:target="_blank"}
 * Luma
 * Meetup

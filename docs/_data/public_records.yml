@@ -1,0 +1,35 @@
+# Public records shown on /org/public-records/
+general:
+  - label: EIN
+    value: 83-3185247
+agm_reports:
+  - year: 2024
+    documents:
+      - title: 2024 Annual General Meeting Chair's report
+        link: https://drive.google.com/file/d/1s7l2cE5Kc9nyKPtE3zHDe6er0S5oADyO/
+      - title: 2024 Annual General Meeting Financial Report
+        link: https://drive.google.com/file/d/1C5SGThHUE3Eqk-9hpxi25_KcRGXcW5Xh/
+  - year: 2023
+    documents:
+      - title: 2023 Annual General Meeting Chair's report
+        link: https://drive.google.com/file/d/1Yapc-cMAUPDAr0hYlWiKEEzd2pUi-2z-/
+      - title: 2023 Annual General Meeting Financial Report
+        link: https://drive.google.com/file/d/1aiFLrxlhANfeU_pParEwVJBxgsDmGIZq/
+  - year: 2022
+    documents:
+      - title: 2022 Annual General Meeting Chair's report
+        link: https://drive.google.com/file/d/1PsfBFJrWEeVoR8ZIMP8u05-kemmk9QEV/
+      - title: 2022 Annual General Meeting Financial Report
+        link: https://drive.google.com/file/d/1X1sOCcvX_jODzEdhPNCAd2qFsC2VVosr/
+  - year: 2021
+    documents:
+      - title: 2021 Annual General Meeting Chair's report
+        link: https://drive.google.com/file/d/1TA-7aMMJpHcot9Syo-XSP3RSfXjP6ipa/
+      - title: 2021 Annual General Meeting Financial Report
+        link: https://drive.google.com/file/d/1yUs4TslvGM_RPA9RkfUHfWAVu2m8qduC/
+  - year: 2020
+    documents:
+      - title: 2020 Annual General Meeting Chair's report
+        link: https://drive.google.com/file/d/1D2iGQPtZ9RpxFi7c246wik2TGhyt4rvh/
+      - title: Annual General Meeting September 2020 Report
+        link: https://drive.google.com/file/d/1EOhWz8d0z-QWsPFd4QuZeX3XJB95Ujbe/

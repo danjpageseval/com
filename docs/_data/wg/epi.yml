@@ -1,0 +1,19 @@
+---
+name: External Process Communication, Interoperability and Robustness
+title: External Process Communication, Interoperability and Robustness Working Group
+description: External Process Communication, Interoperability and Robustness
+old_path: "/wg/epc"
+email: epc@erlef.org
+chairs:
+- Susumu Yamazaki
+members:
+- name: Susumu Yamazaki
+  image: "/assets/images/people/susumu-yamazaki.jpg"
+- name: Akash Hiremath
+  image: "/assets/images/people/akash-hiremath.jpg"
+- name: Graham Leva
+  image: "/assets/images/people/graham-leva.jpg"
+- name: Hideki Takase
+  image: "/assets/images/people/hideki-takase.jpg"
+- name: Isaac Yonemoto
+  image: "/assets/images/people/isaac-yonemoto.jpg"

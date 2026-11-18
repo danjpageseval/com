@@ -14,9 +14,9 @@ redirect_from:
 ---
 ---
 
-The Erlang Ecosystem Foundation has [held its elections over the last month](https://erlef.org/news/eef/election-2020), and what a wild month it's been for all of us. Despite global events, roughly 63% of our members with the right to vote came forward and elected a new board.
+The Erlang Ecosystem Foundation has [held its elections over the last month]({% post_url wg/com/2020-02-28-election-2020 %}), and what a wild month it's been for all of us. Despite global events, roughly 63% of our members with the right to vote came forward and elected a new board.
 
-We want to thank [everyone who decided to run](https://erlef.org/news/eef/election-2020#who-are-the-current-candidates); it's been a rather close result for votes. However, in the end the following members remain part of the board:
+We want to thank [everyone who decided to run]({% post_url wg/com/2020-02-28-election-2020 %}#who-are-the-current-candidates); it's been a rather close result for votes. However, in the end the following members remain part of the board:
 
 - Francesco Cesarini
 - Fred Hebert

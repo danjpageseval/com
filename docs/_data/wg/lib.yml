@@ -1,0 +1,17 @@
+---
+name: Libraries and Frameworks
+title: Libraries and Frameworks Working Group
+description: To provide resources for library and framework authors to ensure that BEAM languages have a rich, vibrant ecosystem with a high degree of developer experience.
+old_path: "/wg/libs-and-frameworks"
+github:
+  url: https://github.com/erlef/libs-and-frameworks
+  label: erlef/libs-and-frameworks
+slack: "#libs-and-frameworks"
+calendar: webcal://user.fm/calendar/v1-0c47411491bf1e360aa1f58444f99f68/Libraries%20%26%20Frameworks%20WG.ics
+chairs:
+- Yordis Prieto
+members:
+- name: Yordis Prieto
+  image: "/assets/images/people/yordis-prieto.jpeg"
+- name: Zach Daniel
+  image: "/assets/images/people/zachary-daniel.jpg"

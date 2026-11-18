@@ -1,0 +1,28 @@
+{% comment %}
+  Chairs, contact details and members for a working group.
+  Usage (for the sec group): include wg-people.html wg=site.data.wg.sec
+{% endcomment %}
+{%- assign wg = include.wg -%}
+<div class="wg-people">
+  {% if wg.email or wg.github or wg.slack or wg.calendar %}
+  <h2>Contact</h2>
+  <ul class="wg-contact">
+    {% if wg.email %}<li>E-mail: <a href="mailto:{{ wg.email }}">{{ wg.email }}</a></li>{% endif %}
+    {% if wg.github %}<li>GitHub: <a href="{{ wg.github.url }}">{{ wg.github.label }}</a></li>{% endif %}
+    {% if wg.slack %}<li>EEF Slack: <a href="{{ site.data.links.slack_invite }}">{{ wg.slack }}</a></li>{% endif %}
+    {% if wg.calendar %}<li>Calendar: <a href="{{ wg.calendar }}">Subscribe</a></li>{% endif %}
+  </ul>
+  {% endif %}
+
+  {% if wg.chairs.size > 0 %}
+  <h2>Current Working Group Chairs</h2>
+  <ul>
+    {% for chair in wg.chairs %}<li>{{ chair }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if wg.members.size > 0 %}
+  <h2>Members</h2>
+  {% include people-grid.html people=wg.members %}
+  {% endif %}
+</div>

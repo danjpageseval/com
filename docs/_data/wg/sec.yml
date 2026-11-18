@@ -1,0 +1,32 @@
+---
+name: Security
+title: Security Working Group
+description: The mission of the Security Working Group is to identify security issues, and provide solutions, develop guidance, standards, technical mechanisms and documentation.
+old_path: "/wg/security"
+email: security@erlef.org
+github:
+  url: https://github.com/erlef/security-wg
+  label: erlef/security-wg
+slack: "#security"
+calendar: webcal://user.fm/calendar/v1-6cb1060b62cffd46141e1263fab9c7eb/public.ics
+chairs:
+- Bram Verburg
+members:
+- name: Maxim Fedorov
+  image: "/assets/images/people/maxim-fedorov.jpg"
+- name: Jonatan Männchen
+  image: "/assets/images/people/jonatan-mannchen.jpeg"
+- name: Daniel Janowski
+  image: "/assets/images/people/daniel-janowski.jpeg"
+- name: Michael Lubas
+  image: "/assets/images/people/michael-lubas.jpeg"
+- name: Peer Stritzinger
+  image: "/assets/images/people/peer-stritzinger.jpg"
+- name: Bram Verburg
+  image: "/assets/images/people/bram-verburg.jpg"
+- name: Paul Swartz
+  image: "/assets/images/people/paul-swartz.jpeg"
+- name: Holden Oullette
+  image: "/assets/images/people/holden-oullette.jpeg"
+- name: Drew Varner
+  image: "/assets/images/people/drew-varner.jpg"

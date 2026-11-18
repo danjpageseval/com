@@ -18,7 +18,7 @@ Are you interested in getting more involved with the Erlang Ecosystem Foundation
 
 In all cases, we come bearing good news for you. It is once again the time for the EEF board elections, and this is a great opportunity to make your voice heard, whether it is by running for a seat, learning about candidates, or making sure you can actually vote.
 
-To know all the important dates, what a board member does, how to run, who might be replaced and by whom, head right away to https://erlef.org/news/eef/election-2021 where we've put all the relevant information.
+To know all the important dates, what a board member does, how to run, who might be replaced and by whom, head right away to {% post_url wg/com/2021-02-25-election-2021 %} where we've put all the relevant information.
 
 Have a pleasant weekend!
 - The Erlang Ecosystem Foundation

@@ -1,0 +1,16 @@
+{% comment %}
+  Photo grid of people (board, WG members). Usage: {% include people-grid.html people=list %}
+  Each item: name, image (optional).
+{% endcomment %}
+<ul class="fellow-index people-grid">
+{% for person in include.people %}
+  <li>
+    {% if person.image %}
+      <img src="{{ person.image | relative_url }}" alt="" loading="lazy">
+    {% else %}
+      <span class="people-initial">{{ person.name | slice: 0 }}</span>
+    {% endif %}
+    <span>{{ person.name }}</span>
+  </li>
+{% endfor %}
+</ul>

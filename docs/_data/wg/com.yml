@@ -1,0 +1,34 @@
+---
+name: Marketing
+title: Marketing Working Group
+description: To expand awareness of Erlang Ecosystem and participation in its community. To promote the Erlang Ecosystem Foundation and its activities, and to increase engagement in the foundation.
+old_path: "/wg/marketing"
+email: marketing@erlef.org
+github:
+  url: https://github.com/erlef/marketing-wg
+  label: erlef/marketing-wg
+slack: "#marketing"
+calendar: webcal://user.fm/calendar/v1-33ba11acd60083e122a2fe5f69056be3/Marketing%20Public.ics
+chairs:
+- Daniel Janowski
+members:
+- name: Johnny Winn
+  image: "/assets/images/people/johnny-winn.jpeg"
+- name: Rose Burt
+  image: "/assets/images/people/rose-burt.jpeg"
+- name: Oliver Weiss
+  image: "/assets/images/people/oliver-weiss.png"
+- name: Daniel Janowski
+  image: "/assets/images/people/daniel-janowski.jpeg"
+- name: Bryan Paxton
+  image: "/assets/images/people/bryan-paxton.jpg"
+- name: Sebastián Alfaro
+  image: "/assets/images/people/profile-placeholder.png"
+- name: Alistair Woodman
+  image: "/assets/images/people/alistair-woodman.png"
+- name: Paula Calgaro
+  image: "/assets/images/people/profile-placeholder.png"
+- name: Daniel Widgren
+  image: "/assets/images/people/daniel-widgren.jpeg"
+- name: Ernesto Malave
+  image: "/assets/images/people/ernesto-malave.jpeg"

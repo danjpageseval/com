@@ -1,0 +1,23 @@
+---
+name: Sponsorship
+title: Sponsorship Working Group
+description: To approve and manage the Erlang Ecosystem Foundation Sponsors.
+old_path: "/wg/sponsorship"
+email: sponsorship@erlef.org
+slack: "#sponsorship"
+calendar: webcal://user.fm/calendar/v1-3e7741280777d484b969c0df1d1e5e17/Public.ics
+chairs:
+- Daniel Janowski
+members:
+- name: Sebastian Strollo
+  image: "/assets/images/people/sebastian-strollo.jpg"
+- name: Alistair Woodman
+  image: "/assets/images/people/alistair-woodman.png"
+- name: Francesco Cesarini
+  image: "/assets/images/people/francesco-cesarini.jpg"
+- name: Peer Stritzinger
+  image: "/assets/images/people/peer-stritzinger.jpg"
+- name: Benoit Chesneau
+  image: "/assets/images/people/benoit-chesneau.jpg"
+- name: Daniel Janowski
+  image: "/assets/images/people/daniel-janowski.jpeg"

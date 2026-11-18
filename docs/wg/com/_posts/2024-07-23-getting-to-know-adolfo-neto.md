@@ -72,7 +72,7 @@ I'm excited about exploring the new machine learning features available in Liveb
 And also we want to create resources such as a website for people who don't know how to program, so they can learn Elixir using a resource, Lee Barney is working on that. That's what I want to see in the future, it would be great. Of course, we have Elixir school which is great, but its focus is more on people that already know a programming language.
 
 
-#### Why did you decide to join the Erlang Ecosystems Foundation? You are currently part of the [Education Working Group](https://erlef.org/wg/education) of the Foundation, what can you tell us about this WG?
+#### Why did you decide to join the Erlang Ecosystems Foundation? You are currently part of the [Education Working Group]({{ site.data.links.wg_education }}) of the Foundation, what can you tell us about this WG?
 
 When I started, people in the community encouraged me by saying, “oh, now there's the Erlang Ecosystem Foundation, you can join”. So I joined, and after a short while, they mentioned, “Oh, we need volunteers for the Education Working Group.” I joined that as well, and now I am the co-chair of the Education Working Group.
 

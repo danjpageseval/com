@@ -1,0 +1,21 @@
+---
+name: Embedded
+title: Embedded Working Group
+description: Standardize, improve, and promote the APIs, tooling, and infrastructure for building embedded systems and IoT devices using Erlang VMs
+old_path: "/wg/embedded"
+email: embedded@erlef.org
+github:
+  url: https://github.com/erlef/embedded-wg
+  label: erlef/embedded-wg
+slack: "#embedded"
+calendar: webcal://user.fm/calendar/v1-50bec56ce5326a8f031fc1ac9787c6fe/Calendar.ics
+chairs:
+- Natalia Chechina
+- Peer Stritzinger
+members:
+- name: Natalia Chechina
+  image: "/assets/images/people/natalia_chechina.jpg"
+- name: Peer Stritzinger
+  image: "/assets/images/people/peer-stritzinger.jpg"
+- name: Adam Lindberg
+  image: "/assets/images/people/adam-lindberg.jpg"

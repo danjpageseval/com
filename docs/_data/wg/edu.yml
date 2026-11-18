@@ -1,0 +1,42 @@
+---
+name: Education, Training, & Adoption
+title: Education, Training, & Adoption Working Group
+description: Facilitate, evolve education and training and consolidate educational material(s) for all BEAM languages and the BEAM itself.
+old_path: "/wg/education"
+email: education@erlef.org
+slack: "#education"
+calendar: webcal://user.fm/calendar/v1-63c1b214aae3cf9cca7e845ba0dd214b/Education-Public.ics
+chairs:
+- Lee S Barney
+- Adolfo Neto
+- Peer Stritzinger
+- Miriam Pena
+members:
+- name: Brujo Benavides
+  image: "/assets/images/people/brujo-benavides.png"
+- name: Simon Thompson
+  image: "/assets/images/people/simon-thompson.jpg"
+- name: Miriam Pena
+  image: "/assets/images/people/miriam-pena.jpg"
+- name: Annette Bieniusa
+  image: "/assets/images/people/annette-bieniusa.jpeg"
+- name: Norberto Ortigoza
+  image: "/assets/images/people/norberto-ortigoza.jpg"
+- name: Laura M. Castro
+  image: "/assets/images/people/laura-castro.jpg"
+- name: Fred Hebert
+  image: "/assets/images/people/fred-hebert.png"
+- name: Pablo Costas Sánchez
+  image: "/assets/images/people/pablo-costas-sanchez.jpeg"
+- name: Peer Stritzinger
+  image: "/assets/images/people/peer-stritzinger.jpg"
+- name: Eric Douglas
+  image: "/assets/images/people/eric-douglas.jpeg"
+- name: Lee S Barney
+  image: "/assets/images/people/lee-s-barney.jpeg"
+- name: Jose Juan Reyes
+  image: "/assets/images/people/jose-juan-reyes.jpeg"
+- name: Adolfo Neto
+  image: "/assets/images/people/adolfo-neto.jpg"
+- name: Jeff Grunewald
+  image: "/assets/images/people/jeff-grunewald.jpg"

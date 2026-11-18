@@ -86,7 +86,7 @@ Another important part is talking to other people. I am currently participating 
 
 #### Finally, why would you encourage others to join the Erlang Ecosystem Foundation?
 
-The Foundation has many [Working Groups](https://erlef.org/wg/ "Working Groups") about different topics. If you have the skills to help in any of them, it would be great to have you on board. We have Working Groups for education, embedded systems, security, sponsorship—there are lots of areas where you could help us. 
+The Foundation has many [Working Groups]({{ site.data.links.working_groups }} "Working Groups") about different topics. If you have the skills to help in any of them, it would be great to have you on board. We have Working Groups for education, embedded systems, security, sponsorship—there are lots of areas where you could help us. 
 
 By joining, you also gain access to a lot of very interesting people who are trying to achieve the same things you are. It’s incredibly useful, for example, to be able to reach out to people like José Valim, the Hex maintainers, or others directly—whatever your area of interest—because you’re part of a broader initiative. 
 

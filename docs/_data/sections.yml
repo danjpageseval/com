@@ -1,8 +1,9 @@
 - name: Working Groups
   items:
     - title: CNA (CVE Numbering Authority)
-      link: /wg/cna
+      link: /wg/cna/
       wg: CNA
+      description: The EEF operates the CVE Numbering Authority (CNA) for the Erlang ecosystem, together with the Security Working Group.
     - title: Security
       link: /wg/sec/
       wg: SEC
@@ -21,6 +22,27 @@
     - title: Support
       link: /wg/sup/
       wg: SUP
+    - title: Fellowship
+      link: /wg/fel/
+      wg: FEL
+    - title: Machine Learning
+      link: /wg/ml/
+      wg: ML
+    - title: Observability
+      link: /wg/obs/
+      wg: OBS
+    - title: Infrastructure
+      link: /wg/inf/
+      wg: INF
+    - title: Libraries and Frameworks
+      link: /wg/lib/
+      wg: LIB
+    - title: Language Interoperability
+      link: /wg/lni/
+      wg: LNI
+    - title: External Process Communication
+      link: /wg/epi/
+      wg: EPI
 - name: Community
   items:
     - title: Fellows

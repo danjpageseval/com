@@ -13,7 +13,7 @@ redirect_from:
 - "/blog/eef/election-2023-revote-results"
 - "/news/eef/election-2023-revote-results"
 ---
-Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `A`](https://erlef.org/blog/eef/election-2023-revote). We're thankful for everyone who [decided to get involved by running](https://erlef.org/blog/eef/election-2023-revote#who-are-the-current-candidates), and those who made their voices heard by voting.
+Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `A`]({% post_url wg/com/2023-04-03-election-2023-revote %}). We're thankful for everyone who [decided to get involved by running]({% post_url wg/com/2023-04-03-election-2023-revote %}#who-are-the-current-candidates), and those who made their voices heard by voting.
 
 Cohort `A` contains four members, who now are:
 

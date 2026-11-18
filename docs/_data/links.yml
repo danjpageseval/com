@@ -2,8 +2,6 @@
 # Change a target here; posts use {{ site.data.links.<key> }} and the stub
 # pages in /legacy redirect to the same values.
 sponsors: https://sponsor.erlef.org/
-board_members: https://erlef.org/board_members
-wg_infra: https://erlef.org/wg/infra
 member_profile: /members/profile/
 community: /languages/
 academic_papers: /papers/
@@ -22,3 +20,29 @@ blog_sponsorship: /wg/sup/
 
 # Old tag pages /blog/tags/<tag> go to /topics/#<tag>
 topics: /topics/
+# Other links used in pages
+events: /events/
+slack_invite: https://erlef.org/slack-invite/erlef
+wg_template: https://github.com/erlef/marketing-wg/blob/master/docs/wg/com/_drafts/wg-template.md
+
+# Old organization pages: /board_members, /bylaws, /faq, /public_records
+board_members: /org/board/
+bylaws: /org/bylaws/
+faq: /org/faq/
+public_records: /org/public-records/
+working_groups: /wg/
+
+# Old working group pages: /wg/<old-name>
+wg_build_and_packaging: /wg/bld/about/
+wg_education: /wg/edu/about/
+wg_fellowship: /wg/fel/about/
+wg_marketing: /wg/com/about/
+wg_observability: /wg/obs/about/
+wg_infra: /wg/inf/about/
+wg_language_interop: /wg/lni/about/
+wg_epc: /wg/epi/about/
+wg_libs_and_frameworks: /wg/lib/about/
+wg_security: /wg/sec/
+wg_sponsorship: /wg/sup/
+wg_embedded: /wg/emb/
+wg_machine_learning: /wg/ml/

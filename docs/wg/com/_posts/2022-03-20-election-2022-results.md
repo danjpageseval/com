@@ -14,7 +14,7 @@ redirect_from:
 ---
 ---
 
-Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `A`](https://erlef.org/blog/eef/election-2022). We're thankful for everyone who [decided to get involved by running](https://erlef.org/blog/eef/election-2022#who-are-the-current-candidates), and those who made their voices heard by voting.
+Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `A`]({% post_url wg/com/2022-02-25-election-2022 %}). We're thankful for everyone who [decided to get involved by running]({% post_url wg/com/2022-02-25-election-2022 %}#who-are-the-current-candidates), and those who made their voices heard by voting.
 
 Cohort `A` contains three members, who now are:
 

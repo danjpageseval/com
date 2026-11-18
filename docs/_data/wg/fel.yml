@@ -1,0 +1,20 @@
+---
+name: Fellowship
+title: Fellowship Working Group
+description: To formally nominate community members for a fellowship role according to the Erlang Ecosystem Foundation bylaws. Creating and maintaining the criteria and procedure for nomination of fellows.
+old_path: "/wg/fellowship"
+email: fellows@erlef.org
+slack: "#fellowship"
+chairs:
+- Francesco Cesarini
+members:
+- name: Francesco Cesarini
+  image: "/assets/images/people/francesco-cesarini.jpg"
+- name: Benoit Chesneau
+  image: "/assets/images/people/benoit-chesneau.jpg"
+- name: Kenneth Lundin
+  image: "/assets/images/people/kenneth-lundin.jpg"
+- name: Miriam Pena
+  image: "/assets/images/people/miriam-pena.jpg"
+- name: José Valim
+  image: "/assets/images/people/jose-valim.jpg"

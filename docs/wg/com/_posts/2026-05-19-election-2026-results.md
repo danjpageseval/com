@@ -15,7 +15,7 @@ redirect_from:
 ---
 ## 2026 Board Election Results
 
-Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `A`](https://erlef.org/blog/eef/election-2026). We're thankful for everyone who [decided to get involved by running](https://erlef.org/blog/eef/election-2026-candidates#who-are-the-current-candidates), and those who made their voices heard by voting.
+Over the last month, the Erlang Ecosystem Foundation [has been running elections for its Cohort `A`]({% post_url wg/com/2026-04-12-election-2026 %}). We're thankful for everyone who [decided to get involved by running]({% post_url wg/com/2026-05-08-election-2026-candidates %}#who-are-the-current-candidates), and those who made their voices heard by voting.
 
 Quorum was reached in the election and cohort `A` contains the following three members :
 

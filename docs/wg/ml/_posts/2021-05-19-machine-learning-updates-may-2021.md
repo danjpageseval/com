@@ -87,4 +87,4 @@ Here is a collection of fun stuff people are doing with the existing libraries a
 
 *   [Bruce Tate has released an introductory video to Nx and Axon where they predict the XOR operator](https://www.youtube.com/watch?v=NcsqGS6SVXg)
 
-Are you also interested in Machine Learning and the Erlang Ecosystem? [Join us and come chat on our Slack](https://erlef.org/wg/machine-learning).
+Are you also interested in Machine Learning and the Erlang Ecosystem? [Join us and come chat on our Slack]({{ site.data.links.wg_machine_learning }}).

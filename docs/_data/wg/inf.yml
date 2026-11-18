@@ -1,0 +1,24 @@
+---
+name: Infrastructure
+title: Infrastructure Working Group
+description: Provide technical support and services to the BEAM community
+old_path: "/wg/infra"
+email: infra@erlef.org
+github:
+  url: https://github.com/erlef/infra
+  label: erlef/infra
+slack: "#infra"
+calendar: webcal://user.fm/calendar/v1-ef278b65927fde2005be63040c195519/Infrastructure%20Public.ics
+chairs:
+- Benoit Chesneau
+members:
+- name: Maxim Fedorov
+  image: "/assets/images/people/maxim-fedorov.jpg"
+- name: Benoit Chesneau
+  image: "/assets/images/people/benoit-chesneau.jpg"
+- name: Peer Stritzinger
+  image: "/assets/images/people/peer-stritzinger.jpg"
+- name: Alistair Woodman
+  image: "/assets/images/people/alistair-woodman.png"
+- name: Bryan Paxton
+  image: "/assets/images/people/bryan-paxton.jpg"

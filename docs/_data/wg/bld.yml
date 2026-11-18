@@ -1,0 +1,46 @@
+---
+name: Build and Packaging
+title: Build and Packaging Working Group
+description: To evolve the tools in the ecosystem related to building, documenting, and deploying code, with a strong focus on interoperability between BEAM languages.
+old_path: "/wg/build-and-packaging"
+github:
+  url: https://github.com/erlef/build-and-packaging-wg
+  label: erlef/build-and-packaging-wg
+slack: "#build-and-packaging"
+calendar: webcal://user.fm/calendar/v1-6a4c623206e11bad5741f519510d9ca3/Build%20%26%20Packinging%20Public.ics
+chairs:
+- Fred Hebert
+- Tristan Sloughter
+members:
+- name: Bryan Paxton
+  image: "/assets/images/people/bryan-paxton.jpg"
+- name: Robert Newson
+  image: "/assets/images/people/robert-newson.jpeg"
+- name: Tristan Sloughter
+  image: "/assets/images/people/tristan-sloughter.jpg"
+- name: José Valim
+  image: "/assets/images/people/jose-valim.jpg"
+- name: Pablo Costas Sánchez
+  image: "/assets/images/people/pablo-costas-sanchez.jpeg"
+- name: Fred Hebert
+  image: "/assets/images/people/fred-hebert.png"
+- name: Maxim Fedorov
+  image: "/assets/images/people/maxim-fedorov.jpg"
+- name: Thomas Depierre
+  image: "/assets/images/people/profile-placeholder.png"
+- name: John Hogberg
+  image: "/assets/images/people/profile-placeholder.png"
+- name: Ivan Glushkov
+  image: "/assets/images/people/profile-placeholder.png"
+- name: Wojtek Mach
+  image: "/assets/images/people/wojtek-mach.jpg"
+- name: Todd Resudek
+  image: "/assets/images/people/todd-resudek.jpg"
+- name: Justin Wood
+  image: "/assets/images/people/profile-placeholder.png"
+- name: Adam Lindberg
+  image: "/assets/images/people/adam-lindberg.jpg"
+- name: Radosław Szymczyszyn
+  image: "/assets/images/people/radek-szymczyszyn.jpg"
+- name: Randy Thompson
+  image: "/assets/images/people/randy-thompson.jpg"

@@ -60,7 +60,7 @@ https://www.adrollgroup.com/
 
 ## Last Chance to Become a Founding Sponsor
 ------------------------------------------------------------
-It’s the last chance to become a founding sponsor for the EEF. Show your support for the community, the BEAM languages, and the foundation itself by becoming a founding sponsor. Join the other [great founding sponsors here](https://erlef.org/sponsors/) .
+It’s the last chance to become a founding sponsor for the EEF. Show your support for the community, the BEAM languages, and the foundation itself by becoming a founding sponsor. Join the other [great founding sponsors here]({{ site.data.links.sponsors }}) .
 
 
 ## Ecosystem News
