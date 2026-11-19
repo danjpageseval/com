@@ -1,0 +1,12 @@
+{%- comment -%}
+  Upcoming events for the home page, chosen in the browser from /events.json
+  using each type's lead_days in _data/event_types.yml.
+{%- endcomment -%}
+<div id="upcoming-events" class="upcoming-events" data-limit="10">
+  <p><a href="/events/">See upcoming events</a></p>
+</div>
+<div class="upcoming-more"><a href="/events/">More events...</a></div>
+<script type="application/json" id="event-config">
+{ "types": {{ site.data.event_types | jsonify }}, "colors": {{ site.data.event_colors | jsonify }} }
+</script>
+<script src="/assets/js/events.js" defer></script>

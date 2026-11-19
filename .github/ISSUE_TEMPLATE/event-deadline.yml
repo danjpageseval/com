@@ -1,0 +1,97 @@
+name: 'Event: Deadline'
+description: 'A submission deadline: call for talks, papers or participation.'
+title: "[Event: Deadline] "
+labels:
+- event
+body:
+- type: markdown
+  attributes:
+    value: Thanks for submitting an event! A maintainer will review it. When the issue is labelled `approved`, a pull request adding the event is opened automatically. See [events](https://com.erlef.org/events/).
+- type: input
+  id: event_title
+  attributes:
+    label: Event name
+  validations:
+    required: true
+- type: input
+  id: organizer
+  attributes:
+    label: Organizer
+  validations:
+    required: true
+- type: input
+  id: url
+  attributes:
+    label: Event URL
+    placeholder: https://
+  validations:
+    required: true
+- type: input
+  id: location
+  attributes:
+    label: Location
+    description: City and country, a venue address, or Online.
+  validations:
+    required: true
+- type: input
+  id: opens_date
+  attributes:
+    label: Opens date
+    description: When submissions open. Leave empty if already open.
+    placeholder: YYYY-MM-DD
+- type: input
+  id: closes_date
+  attributes:
+    label: Closes date
+    placeholder: YYYY-MM-DD
+  validations:
+    required: true
+- type: input
+  id: closes_time
+  attributes:
+    label: Closes time
+    description: Local time, 24-hour.
+    placeholder: HH:MM
+- type: input
+  id: timezone
+  attributes:
+    label: Time zone
+    description: IANA time zone name of the event location, for example Europe/Stockholm or America/New_York. Use UTC for online events without a home time zone.
+    placeholder: Europe/Stockholm
+  validations:
+    required: true
+- type: dropdown
+  id: ecosystem
+  attributes:
+    label: Ecosystem
+    options:
+    - BEAM (several languages)
+    - Elixir
+    - Erlang
+    - Gleam
+    - LFE
+    - Non-BEAM (Other)
+  validations:
+    required: true
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: Markdown is supported.
+  validations:
+    required: true
+- type: textarea
+  id: logo
+  attributes:
+    label: Logo
+    description: Optional. Drag a square logo image (PNG, JPG or SVG, under 1 MB) into this box.
+- type: input
+  id: related
+  attributes:
+    label: Related events
+    description: 'Optional. Ids of related events on com.erlef.org, comma separated (the part after # in an /events/all/ link).'
+- type: input
+  id: announcement
+  attributes:
+    label: Announcement URL
+    description: Optional. Link to an announcement for this event.

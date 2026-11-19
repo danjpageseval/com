@@ -58,17 +58,7 @@
       link: /papers/
       wg: EDU
 - name: Events
-  items:
-    - title: "Malaga Unconference: 2026-03-19"
-      link: /events/malaga-unconf.html
-      wg: COM
-    - title: "Stockholm Unconference: 2026-05-19"
-      link: /events/2026-05-19-unconf.html
-      wg: COM
-    - title: Stockholm Attendee Guide
-      link: /events/2026-05-19-attendee.html
-      wg: COM
-    - more_link: /events
+  include: upcoming-events.html
 - name: Slides
   items:
     - title: "ElixirConf EU 2026: EEF Rundown"

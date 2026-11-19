@@ -1,0 +1,16 @@
+{%- comment -%}
+  Human-readable dates for one event. Usage: include event-dates.html event=e
+  start/end are 'YYYY-MM-DD' or 'YYYY-MM-DDTHH:MM' in the event's timezone.
+{%- endcomment -%}
+{%- assign e = include.event -%}
+{%- if e.type == "deadline" -%}
+  {%- if e.opens %}Opens {{ e.opens | slice: 0, 10 | date: "%b %-d, %Y" }} · {% endif -%}
+  Closes {{ e.closes | slice: 0, 10 | date: "%b %-d, %Y" }}{% if e.closes contains "T" %} {{ e.closes | slice: 11, 5 }}{% endif %}
+{%- else -%}
+  {%- assign sd = e.start | slice: 0, 10 -%}
+  {%- assign ed = e.end | default: e.start | slice: 0, 10 -%}
+  {{ sd | date: "%b %-d, %Y" }}{% if e.start contains "T" %} {{ e.start | slice: 11, 5 }}{% endif %}
+  {%- if ed != sd %} – {{ ed | date: "%b %-d, %Y" }}{% if e.end contains "T" %} {{ e.end | slice: 11, 5 }}{% endif %}
+  {%- elsif e.end contains "T" %}–{{ e.end | slice: 11, 5 }}{% endif -%}
+{%- endif -%}
+{%- if e.timezone %} ({{ e.timezone }}){% endif -%}

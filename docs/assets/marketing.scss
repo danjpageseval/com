@@ -457,3 +457,257 @@ ul.wg-index h3 {
 ul.wg-index p {
     margin: 0;
 }
+
+// ---- Events ---------------------------------------------------------------
+.events-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin: 1rem 0 1.5rem;
+}
+
+.events-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.events-filter button {
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 999px;
+    padding: 0.25rem 0.8rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.events-filter button[aria-pressed="true"] {
+    background: #1f6fd1;
+    border-color: #1f6fd1;
+    color: #fff;
+}
+
+.events-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 2rem;
+    align-items: start;
+}
+
+.events-calendar {
+    position: sticky;
+    top: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 0.75rem;
+}
+
+@media (max-width: 800px) {
+    .events-layout {
+        grid-template-columns: 1fr;
+    }
+    .events-calendar {
+        position: static;
+        order: -1;
+    }
+}
+
+h3.event-month {
+    font-size: 1.1rem;
+    margin: 1.5rem 0 0.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.25rem;
+}
+
+ul.event-rows {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.event-row {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    padding: 0.45rem 0.25rem;
+    border-radius: 8px;
+    transition: background 0.4s;
+}
+
+li.event-row.event-flash {
+    background: #fff3c4;
+}
+
+.event-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.event-icon, .event-icon img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.event-dot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+span.event-icon.event-dot {
+    width: 14px;
+    height: 14px;
+    margin: 9px;
+}
+
+.event-meta {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.event-type {
+    display: inline-block;
+    text-transform: capitalize;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 0.35rem;
+    margin-right: 0.3rem;
+    font-size: 0.75rem;
+}
+
+.cal-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.cal-head button {
+    border: none;
+    background: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    padding: 0 0.5rem;
+}
+
+.cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    text-align: center;
+}
+
+.cal-dow {
+    font-size: 0.75rem;
+    color: #888;
+}
+
+.cal-day {
+    border: none;
+    background: none;
+    min-height: 38px;
+    border-radius: 6px;
+    padding: 2px 0;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cal-day:disabled {
+    color: #999;
+    cursor: default;
+}
+
+.cal-has-events {
+    cursor: pointer;
+    background: #f4f6fa;
+}
+
+.cal-today .cal-num {
+    font-weight: 700;
+    color: #1f6fd1;
+}
+
+.cal-marks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+    align-items: center;
+}
+
+img.cal-mark {
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+}
+
+span.cal-mark.event-dot {
+    width: 7px;
+    height: 7px;
+}
+
+.cal-more {
+    font-size: 0.6rem;
+    color: #666;
+}
+
+.events-more {
+    margin-top: 2rem;
+}
+
+h2.event-year {
+    margin-top: 2rem;
+}
+
+section.event-detail {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;
+    scroll-margin-top: 1rem;
+}
+
+section.event-detail .event-icon {
+    width: 48px;
+    height: 48px;
+}
+
+section.event-detail .event-icon img {
+    width: 48px;
+    height: 48px;
+}
+
+section.event-detail h3 {
+    font-size: 1.15rem;
+    margin: 0 0 0.25rem;
+}
+
+section.event-detail:target {
+    background: #fff9e0;
+}
+
+.event-description {
+    font-size: 0.95rem;
+}
+
+.event-description img {
+    max-width: 100%;
+}
+
+.upcoming-events {
+    margin: 0 0 0 1em;
+}
+
+.upcoming-more {
+    margin: 0.5rem 0 0 6em;
+}

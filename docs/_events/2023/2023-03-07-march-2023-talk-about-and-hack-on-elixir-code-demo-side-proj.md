@@ -1,0 +1,14 @@
+---
+title: March 2023 - Talk about and Hack on Elixir code. Demo side projects
+type: meetup
+start: '2023-03-07'
+end: '2023-03-07'
+organizer: Cincinnati Elixir Meetup
+ecosystem: elixir
+logo: "/assets/images/events/cincinnati-elixir-meetup.jpg"
+link: https://www.meetup.com/cincinnati-elixir-meetup/events/gtsbqsyfcfbkb/
+source_id: 7847bf48-a466-4789-afab-6e4cd3c0059b
+---
+Come join us as we continue to Learn and build with Elixir, Erlang, OTP and The Phoenix Framework.
+
+<https://www.ohioelixir.com/>

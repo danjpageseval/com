@@ -1,0 +1,26 @@
+---
+layout: null
+permalink: /events.json
+sitemap: false
+---
+[
+{%- for e in site.events -%}{%- assign id = e.relative_path | split: "/" | last | remove: ".md" -%}
+{
+  "id": {{ id | jsonify }},
+  "title": {{ e.title | jsonify }},
+  "type": {{ e.type | jsonify }},
+  "start": {{ e.start | jsonify }},
+  "end": {{ e.end | jsonify }},
+  "opens": {{ e.opens | jsonify }},
+  "closes": {{ e.closes | jsonify }},
+  "timezone": {{ e.timezone | jsonify }},
+  "organizer": {{ e.organizer | jsonify }},
+  "location": {{ e.location | jsonify }},
+  "ecosystem": {{ e.ecosystem | jsonify }},
+  "logo": {{ e.logo | jsonify }},
+  "link": {{ e.link | jsonify }},
+  "related": {{ e.related | jsonify }},
+  "announcements": {{ e.announcements | jsonify }}
+}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]

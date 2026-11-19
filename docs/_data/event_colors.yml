@@ -1,0 +1,7 @@
+# Calendar dot colors by ecosystem, used when an event has no logo.
+elixir: "#6e4a7e"
+erlang: "#a90533"
+gleam: "#ffaff3"
+lfe: "#3b8f3b"
+beam: "#1f6fd1"
+default: "#888888"

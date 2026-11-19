@@ -1,0 +1,36 @@
+---
+layout: null
+permalink: /events.ics
+sitemap: false
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Erlang Ecosystem Foundation//Community Events//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:EEF Community Events
+{% for e in site.events -%}{%- assign id = e.relative_path | split: "/" | last | remove: ".md" -%}
+{%- assign first = e.start | default: e.opens | default: e.closes -%}
+{%- assign last = e.end | default: e.closes | default: first -%}
+{%- assign summary = e.title | replace: "\", "\\" | replace: ",", "\," | replace: ";", "\;" -%}
+BEGIN:VEVENT
+UID:{{ id }}@com.erlef.org
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+{% if first contains "T" and e.timezone -%}
+DTSTART;TZID={{ e.timezone }}:{{ first | replace: "-", "" | replace: ":", "" }}00
+{% if last contains "T" -%}
+DTEND;TZID={{ e.timezone }}:{{ last | replace: "-", "" | replace: ":", "" }}00
+{% endif -%}
+{% else -%}
+DTSTART;VALUE=DATE:{{ first | slice: 0, 10 | replace: "-", "" }}
+DTEND;VALUE=DATE:{{ last | slice: 0, 10 | append: " 12:00" | date: "%s" | plus: 86400 | date: "%Y%m%d" }}
+{% endif -%}
+SUMMARY:{% if e.type == "deadline" %}Deadline: {% endif %}{{ summary }}
+{% if e.location -%}
+LOCATION:{{ e.location | replace: ",", "\," | replace: ";", "\;" }}
+{% endif -%}
+{% if e.link -%}
+URL:{% if e.link contains "://" %}{{ e.link }}{% else %}{{ site.url }}{{ e.link }}{% endif %}
+{% endif -%}
+END:VEVENT
+{% endfor -%}
+END:VCALENDAR

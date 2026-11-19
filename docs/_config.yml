@@ -193,3 +193,5 @@ collections:
   articles:
     output: false
     sort_by: date
+  events:
+    output: false

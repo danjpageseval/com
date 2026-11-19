@@ -1,0 +1,19 @@
+# Event types: filter labels, and how far ahead (in days) an event appears
+# in the "upcoming" list on the home page. Events always show on /events/
+# until they have ended. Deadlines appear from `opens` (or `lead_days`
+# before `closes` when there is no `opens`) until `closes`.
+- type: conference
+  label: Conferences
+  lead_days: 183
+- type: meetup
+  label: Meetups
+  lead_days: 61
+- type: training
+  label: Training
+  lead_days: 61
+- type: hackathon
+  label: Hackathons
+  lead_days: 61
+- type: deadline
+  label: Deadlines
+  lead_days: 61

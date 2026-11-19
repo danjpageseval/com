@@ -38,6 +38,9 @@ description: Communication for the EEF community
 </div>
 </div>
 
+{% if section.include %}
+{% include {{ section.include }} %}
+{% else %}
 <ul class="list-wg-container">
 {% for item in section.items %}
 
@@ -55,5 +58,6 @@ description: Communication for the EEF community
 </li>
 {% endfor %}
 </ul>
+{% endif %}
 
 {% endfor %}
